@@ -18,7 +18,7 @@
           $(this).removeAttr('data-tooltip-id');
           $(this).off('mouseenter.tooltip mouseleave.tooltip');
         });
-        return false;
+        return this;
       }
 
       options = $.extend(defaults, options);
